@@ -1,0 +1,16 @@
+// Theme CSS variables — one partial per theme.
+// Imported by main.tsx after App.css so [data-theme] selectors win via cascade order.
+
+// Existing themes
+@use 'minimal';
+@use 'dark';
+@use 'blackout';
+@use 'dim-green';
+@use 'dim-blue';
+
+// New themes
+@use 'neon-night';
+@use 'solarized';
+@use 'nord';
+@use 'coffee';
+@use 'gruvbox';
