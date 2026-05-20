@@ -1,16 +1,9 @@
-// Theme CSS variables — one partial per theme.
-// Imported by main.tsx after App.css so [data-theme] selectors win via cascade order.
+// cmdIDE Themes — root entry point.
+// Imported by the app frontend via: import '../../themes/index.scss'
+//
+// Theme variables are applied via the data-theme attribute on <html>.
+// Built-in presets are set by the app. Community themes are selected
+// the same way once registered in community/_index.scss.
 
-// Existing themes
-@use 'minimal';
-@use 'dark';
-@use 'blackout';
-@use 'dim-green';
-@use 'dim-blue';
-
-// New themes
-@use 'neon-night';
-@use 'solarized';
-@use 'nord';
-@use 'coffee';
-@use 'gruvbox';
+@use 'built-in/index' as *;
+@use 'community/index' as *;
