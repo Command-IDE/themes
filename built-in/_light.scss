@@ -1,0 +1,19 @@
+// Light — clean white with iOS system grays
+[data-theme="light"] {
+  --app-bg:               #ffffff;
+  --border-color:         #e5e5ea;
+  --info-bar-bg:          #f2f2f7;
+  --info-bar-color:       #8e8e93;
+  --info-bar-hover-bg:    #e5e5ea;
+  --info-bar-hover-color: #1c1c1e;
+  --tab-color:            #8e8e93;
+  --tab-color-hover:      #1c1c1e;
+  --tab-add-border:       #c7c7cc;
+
+  // Surface and separator overrides for light context
+  --surface-raised:       rgba(0, 0, 0, 0.04);
+  --surface-overlay:      rgba(0, 0, 0, 0.07);
+  --surface-selected:     rgba(10, 132, 255, 0.12);
+  --sep:                  rgba(0, 0, 0, 0.10);
+  --sep-strong:           rgba(0, 0, 0, 0.15);
+}

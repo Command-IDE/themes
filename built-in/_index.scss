@@ -1,13 +1,5 @@
 // Built-in themes — shipped with cmdIDE.
 // To add a new official theme, create a partial here and add a @use line below.
 
-@use 'minimal';
 @use 'dark';
-@use 'blackout';
-@use 'dim-green';
-@use 'dim-blue';
-@use 'neon-night';
-@use 'solarized';
-@use 'nord';
-@use 'coffee';
-@use 'gruvbox';
+@use 'light';
