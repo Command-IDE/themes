@@ -1,6 +1,6 @@
 # Community Themes
 
-This directory contains themes contributed by the cmdIDE community. Every theme here was submitted via pull request and reviewed by a maintainer.
+This directory contains themes contributed by the Binder community. Every theme here was submitted via pull request and reviewed by a maintainer.
 
 ## How to Submit a Theme
 
@@ -42,4 +42,4 @@ Save this as `community/_<handle>-<name>.scss`:
 
 ---
 
-> Want full Monaco editor and terminal color support for your theme? See the `themes.ts` contribution guide in the [main cmdIDE repo](https://github.com/Command-IDE/terminal-IDE).
+> Want full Monaco editor and terminal color support for your theme? See the `themes.ts` contribution guide in the [main Binder repo](https://github.com/BinderTools/binder).

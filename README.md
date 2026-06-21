@@ -1,6 +1,6 @@
-# cmdIDE Themes
+# Binder Themes
 
-The official theme repository for [cmdIDE](https://github.com/Command-IDE/terminal-IDE) — a terminal-first IDE built on Wails and React.
+The official theme repository for [Binder](https://github.com/BinderTools/binder) — a terminal-first IDE built on Wails and React.
 
 Themes are written in SCSS and applied via the `data-theme` HTML attribute. Each theme defines a set of CSS custom properties that control the shell UI — background, borders, tabs, and the info bar.
 
@@ -10,7 +10,7 @@ Themes are written in SCSS and applied via the `data-theme` HTML attribute. Each
 
 ```
 themes/
-├── built-in/          # Official themes shipped with cmdIDE
+├── built-in/          # Official themes shipped with Binder
 │   ├── _index.scss    # Imports all built-in themes
 │   ├── _minimal.scss
 │   ├── _dark.scss
@@ -46,7 +46,7 @@ themes/
 
 ## How Themes Work
 
-Themes define CSS custom properties scoped to a `[data-theme]` attribute selector. When a user selects a theme in cmdIDE, the app sets `document.documentElement.setAttribute('data-theme', 'theme-key')` and the SCSS variables take effect immediately.
+Themes define CSS custom properties scoped to a `[data-theme]` attribute selector. When a user selects a theme in Binder, the app sets `document.documentElement.setAttribute('data-theme', 'theme-key')` and the SCSS variables take effect immediately.
 
 ```scss
 // Example: built-in/_minimal.scss
@@ -91,7 +91,7 @@ Community themes live in `community/` and are loaded alongside built-in themes a
 
 ## Using This Repo in Your Build
 
-This repository is consumed as a git submodule inside the main cmdIDE app:
+This repository is consumed as a git submodule inside the main Binder app:
 
 ```
 app/themes/  ← this repo

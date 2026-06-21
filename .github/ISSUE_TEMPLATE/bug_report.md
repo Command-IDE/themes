@@ -7,7 +7,7 @@ labels: bug
 ## Theme
 
 **Theme name/key:**
-**cmdIDE version:**
+**Binder version:**
 
 ## Description
 

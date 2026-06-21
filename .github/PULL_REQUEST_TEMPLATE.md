@@ -11,7 +11,7 @@
 
 ### Preview
 
-<!-- Paste a screenshot of cmdIDE running with your theme applied -->
+<!-- Paste a screenshot of Binder running with your theme applied -->
 
 ### Checklist
 

@@ -17,7 +17,7 @@ labels: community-theme
 
 ## Preview
 
-<!-- Screenshot of cmdIDE with your theme applied -->
+<!-- Screenshot of Binder with your theme applied -->
 
 ## SCSS
 

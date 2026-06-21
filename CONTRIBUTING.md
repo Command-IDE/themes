@@ -1,4 +1,4 @@
-# Contributing to cmdIDE Themes
+# Contributing to Binder Themes
 
 Thank you for wanting to contribute a theme! This guide covers everything you need to submit a community theme or improve an existing one.
 
@@ -33,8 +33,8 @@ Thank you for wanting to contribute a theme! This guide covers everything you ne
 ### 1. Fork and clone
 
 ```bash
-git clone https://github.com/<your-handle>/cmdide-themes
-cd cmdide-themes
+git clone https://github.com/<your-handle>/binder-themes
+cd binder-themes
 ```
 
 ### 2. Create your theme file
@@ -146,9 +146,9 @@ These are guidelines, not hard rules. Reviewers will flag obvious accessibility 
 
 ## Testing Locally
 
-To preview your theme inside cmdIDE before submitting:
+To preview your theme inside Binder before submitting:
 
-1. Clone the main [cmdIDE repo](https://github.com/Command-IDE/terminal-IDE)
+1. Clone the main [Binder repo](https://github.com/BinderTools/binder)
 2. The `app/themes/` directory is this repo (as a submodule) — replace or symlink it with your fork
 3. Run the Wails dev server:
    ```bash
@@ -179,6 +179,6 @@ Before submitting, confirm all of the following:
 
 Use the **Bug Report** issue template for problems with existing themes (wrong colors, missing variables, rendering issues). Include:
 
-- Which theme and which version of cmdIDE
+- Which theme and which version of Binder
 - A screenshot showing the problem
 - The expected vs actual appearance
